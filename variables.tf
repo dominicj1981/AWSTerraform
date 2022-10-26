@@ -45,7 +45,7 @@ variable "tags" {
     type        = map
     description = "(Optional) A mapping of tags to assign to the bucket."
     default     = {
-        environment = "PROD"
+        environment = "QA"
         terraform   = "true"
     }
 }
